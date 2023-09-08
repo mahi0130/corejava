@@ -1,0 +1,12 @@
+package in.co.rays;
+
+public class arrcount3 {
+	public static void main(String[] args) {
+		String  s1 = "300";
+		int i1 = Integer.parseInt(s1);
+		double d = (i1);
+		
+		System.out.println(i1);
+	}
+
+}

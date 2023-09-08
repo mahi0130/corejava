@@ -1,0 +1,17 @@
+package in.co.oops;
+
+public class generatetringle {
+	public static void main(String[] args) {
+		int i;
+		int j1;
+		for ( i= 0; i <=4; i++) {
+			for ( j1 = 0; j1 <i; j1++) {
+				System.out.println(i);
+				
+			}
+			System.out.println();
+			
+		}
+	}
+
+}

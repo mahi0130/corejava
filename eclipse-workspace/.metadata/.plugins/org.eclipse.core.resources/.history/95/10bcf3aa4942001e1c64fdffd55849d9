@@ -1,0 +1,8 @@
+package in.com.collection;
+
+public class Listinterface {
+	public static void main(String[] args) {
+		Arraylist a = new ArrayList();
+		
+	}
+}

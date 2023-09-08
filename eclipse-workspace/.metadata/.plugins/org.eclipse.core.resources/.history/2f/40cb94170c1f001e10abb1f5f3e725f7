@@ -1,0 +1,9 @@
+package in.co.rays;
+
+public class arrcount3 {
+	public static void main(String[] args) {
+		String []name = {"mahi","bharti","muskan","kanak"};
+		System.out.println(name[3].charAt(1));
+	}
+
+}

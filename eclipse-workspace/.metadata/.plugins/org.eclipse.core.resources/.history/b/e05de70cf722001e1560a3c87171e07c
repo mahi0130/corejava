@@ -1,0 +1,8 @@
+package in.co.oops;
+
+public class Circle extends Shape{
+public static void main(String[] args) {
+	System.out.println("mahi");
+}
+
+}

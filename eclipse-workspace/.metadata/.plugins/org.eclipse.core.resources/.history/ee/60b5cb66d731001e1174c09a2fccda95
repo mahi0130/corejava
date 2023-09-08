@@ -1,0 +1,12 @@
+package ioin.com.io;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class TestReadimage {
+	public static void main(String[] args)throws Exception {
+		FileInputStream in = new FileInputStream("C:\\Users\\hp\\Desktop\\Image");
+		FileOutputStream out = new FileOutputStream("C:\\Users\\hp\\Desktop\\Image\\nicepic");
+		
+	}
+}

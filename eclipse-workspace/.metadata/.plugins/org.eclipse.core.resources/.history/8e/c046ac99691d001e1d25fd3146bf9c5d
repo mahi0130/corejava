@@ -1,0 +1,21 @@
+package in.co.rays;
+
+public class testswitch {
+	public static void main(String[] args) {
+		int value =3;
+		switch (value) {
+		case 1:
+			System.out.println("mahi");
+			break;
+		case 2:
+			System.out.println("mahi s birthday");
+			break;
+	
+
+		default:
+			System.out.println("java");
+			break;
+		}
+	}
+
+}

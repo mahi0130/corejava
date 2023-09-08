@@ -1,0 +1,10 @@
+package in.co.oops;
+
+public class Testshape {
+ public static void main(String[] args) {
+	Shape s = new Shape("red",10);
+	s.getcolor();
+	s.getboderWidth();
+	
+}
+}

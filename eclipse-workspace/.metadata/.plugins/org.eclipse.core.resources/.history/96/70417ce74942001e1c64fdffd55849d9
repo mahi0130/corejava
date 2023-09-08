@@ -1,0 +1,10 @@
+package in.com.collection;
+
+import java.util.ArrayList;
+
+public class Listinterface {
+	public static void main(String[] args) {
+		ArrayList a = new ArrayList();
+		
+	}
+}

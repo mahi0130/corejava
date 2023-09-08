@@ -1,0 +1,13 @@
+package in.co.rays;
+
+public class arrclasss2 {
+	public static void main(String[] args) {
+		String[]name = {"uday", "mahi","kanak","abhishek"};
+				for (String string : name) {
+					System.out.println(name);
+					
+				}
+		}
+	}
+
+

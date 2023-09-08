@@ -1,0 +1,25 @@
+package Exceptionhanding.in.com;
+
+public class Account {
+	private int balance = 0;
+	public void setbalance(int balance) {
+		this.balance = balance;
+	}
+	public int getbalance() {
+		return balance;
+	}
+	public void deposite(int amount) {
+		int total = getbalance()+ amount;
+		setbalance(total);
+		System.out.println("balance after deposite"+ getbalance());
+	}
+	public void withdrawl(int amount)throws  insufficientfund {
+		int total = getbalance()-amount;
+		if(total>=2000) {
+			setbalance(total);
+			System.out.println("balance after withdrawl= "+getbalance());
+		}else {
+				insufficientfund e = new insufficientfund();
+				throw e;
+	}
+}

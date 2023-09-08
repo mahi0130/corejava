@@ -1,0 +1,11 @@
+package in.co.oops;
+
+public class testtriangle {
+	public static void main(String[] args) {
+		Javaabstract s = new Rectangle1();
+		
+		s.area();
+		s.sum();
+	}
+
+}

@@ -1,0 +1,2 @@
+module in.co.rays {
+}

@@ -1,0 +1,24 @@
+package in.co.rays;
+
+public class testswitch {
+	public static void main(String[] args) {
+		int value =1;
+		int a=10;
+		int b=20;
+		switch (value) {
+		case 1:
+			int c= a+b;
+			System.out.println("sum="+c);
+			break;
+		case 2:
+			System.out.println("case2");
+			break;
+	
+
+		default:
+			System.out.println("javasa");
+			break;
+		}
+	}
+
+}

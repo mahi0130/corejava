@@ -1,0 +1,34 @@
+package in.co.oops;
+
+public class Rectangle extends Shape {
+	private int length = 0;
+	private int width = 0;
+	
+	public Rectangle() {
+		
+	}
+	
+	public Rectangle (int length, int width) {
+		this.length = length;
+		this.width = width;
+	}
+	public void setLength(int length) {
+		this.length = length;
+	}
+	public int getLength() {
+		return length;
+	}
+	public void setWidth(int width) {
+		this.width = width;
+	}
+	
+	public int getWidth() {
+		return width;
+	}
+	public  void area () {
+	   int a= length*width;
+		System.out.println("rectangle area ="+a);
+	}
+
+
+}
